@@ -1,0 +1,33 @@
+{
+	"name": "apostrophe-copypage",
+	"description": "Copy a page- Plugin for the  apostrophe cms",
+	"version": "1.0.0",
+	"_npmUser": {
+		"name": "petershaw",
+		"email": "unthoughted@googlemail.com"
+	},
+	"author": {
+		"name": "aus der Technik - Simon & Wolff GbR"
+	},
+	"license": "BSD",
+	"main": "index.js",
+	"homepage": "https://github.com/petershaw/apostrophe-copypage",
+	"keywords": [
+		"apostrophe",
+		"page",
+		"copy"
+	],
+	"dependencies": {
+		"underscore": "^1.8.3"
+	},
+	"maintainers": [
+		{
+		"name": "aus der Technik - Simon & Wolff GbR",
+		"email": "hallo@ausdertechnik.de"
+	}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/petershaw/apostrophe-copypage.git"
+	}
+}

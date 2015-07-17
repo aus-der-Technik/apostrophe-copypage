@@ -1,0 +1,20 @@
+{% extends "baseWidgetEditor.html" %}
+
+{% block modalClass %}
+  {{ super() }} apos-twitter-editor
+{% endblock%}
+
+{% block modalLabel %}
+  {{ __('Copy this page') }}
+{% endblock %}
+
+{% block modalInstructions %}
+  <p>{{ __('Give the new page a name') }}</p>
+{% endblock %}
+
+{% block formBody %}
+<fieldset class="apos-fieldset apos-fieldset-text">
+  <label>New page name</label>
+  <input class="apos-copypage-name" type="text" name="newPageName" value="{{ defaultPageName }}"/>
+</fieldset>
+{% endblock %}
