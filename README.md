@@ -33,3 +33,9 @@ Saving the form will create a new page that is set unpublished.
 ## Disclaimer ##
 
 This module is in a very early state. Not well tested and used for our special purpose to  copy a entre page quickly. 
+## Spend us a beer
+you can spend us a beer by sending a mirco amount to this bitcoin address: 
+
+```
+1DtvkCh28zqarTEUHtxs7gWtutsv2Cnf9d
+```
