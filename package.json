@@ -6,7 +6,7 @@
 		"underscore": "^1.8.3"
 	},
 	"name": "apostrophe-copypage",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"license": "BSD",
 	"homepage": "https://github.com/aus-der-Technik/apostrophe-copypage",
 	"maintainers": [
@@ -21,8 +21,8 @@
 		"type": "git"
 	},
 	"_npmUser": {
-		"email": "unthoughted@googlemail.com",
-		"name": "petershaw"
+		"email": "hallo@ausdertechnik.de",
+		"name": "aus-der-technik"
 	},
 	"main": "index.js",
 	"keywords": [
