@@ -2,7 +2,7 @@
 
 // COPYPAGE Plugin for apostrophe 
 // ------------------------------------
-// aus der Technik - Simon & Wolff GbR
+// aus der Technik - Simon & Simon GbR
 // https://www.ausdertechnik.de
 // written 2015
 
