@@ -43,7 +43,7 @@ function Construct(options, callback) {
     that._apos.mixinModuleAssets(that, 'copypage', __dirname, options);
 
     // Include our editor template in the markup when aposTemplates is called
-    that.pushAsset('template', 'copypageEditor', { when: 'user' });
+    //that.pushAsset('template', 'copypageEditor', { when: 'user' });
     that.pushAsset('script', 'apply', { when: 'user' });
      
     that._apos.pushGlobalCallWhen('user', 'AposCopypageApply(?)', {
@@ -80,7 +80,7 @@ function Construct(options, callback) {
     that._app.post(that._action + '/copy', function(req, res) {
         var targetPage = _.clone(that.sourcePage);
         delete targetPage._id;
-        targetPage.title = that.defaultPageName;
+        targetPage.title = req.body['new-page-name'] || that.defaultPageName;
         targetPage.slug +=  "-copy";
         targetPage.published = false;
         that._apos.putPage(req, targetPage.slug, targetPage, function(err, page) {

@@ -32,10 +32,11 @@ function AposCopypageApply(options) {
         that.save = function(callback){
             var url = that.action + '/copy';
             var newName = $('.apos-copypage-name[name="newPageName"]');
-            $.jsonCall(url, {'new-page-name': $(newName.last()).val()}, function(data){
-                window.location.reload();
-                return callback(null);
-            });
+            console.log(url, newName.val() )
+             $.jsonCall(url, {'new-page-name': newName.val()}, function(data){
+                 window.location.reload();
+                 return callback(null);
+             });
         }
   
     });
